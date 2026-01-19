@@ -61,14 +61,14 @@ body {
   left: 25%;
   --label-bg: #f4f1ea;
   --label-color: #5d5d5d;
-  opacity: clamp(0, calc((var(--pos-num) - 10) * 0.05), 1);
+  opacity: clamp(0, calc((var(--pos-num) - 20) * 0.05), 1);
 }
 
 .compare .label-after {
   left: 75%;
   --label-bg: #2c2c2c;
   --label-color: #f2f2f2;
-  opacity: clamp(0, calc((90 - var(--pos-num)) * 0.05), 1);
+  opacity: clamp(0, calc((80 - var(--pos-num)) * 0.05), 1);
 }
 
 .compare .label::before {
