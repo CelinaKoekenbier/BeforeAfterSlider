@@ -84,7 +84,7 @@ body {
 }
 
 .compare .before {
-  background-image: url("assets/before.png");
+  background-image: url("assets/before.jpg");
   -webkit-mask: linear-gradient(
     to right,
     #000 0,
@@ -100,7 +100,7 @@ body {
 }
 
 .compare .after {
-  background-image: url("assets/after.png");
+  background-image: url("assets/after.jpg");
   -webkit-mask: linear-gradient(
     to right,
     transparent 0,
